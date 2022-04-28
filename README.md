@@ -1,7 +1,7 @@
 # PUCE-course-May-2022
 Assembly course at the PUCE University Ecuador
 
-#Ensamblaje de genomas mitocondriales con Novoplasty
+**Ensamblaje de genomas mitocondriales con Novoplasty**
 
 El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kb) utilizando archivos de secuencia de ADN total. 
 
