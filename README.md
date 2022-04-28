@@ -17,6 +17,7 @@ La información sobre el funcionamiento y la utilización del software se encuen
 Los archivos necesarios :
 
 -Lecturas brutas de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz
+Las lesturas brutas son accessibles aqui: https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing
 
 -Un archivo de configuración https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2
 
