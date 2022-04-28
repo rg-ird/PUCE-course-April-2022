@@ -5,12 +5,12 @@ Assembly course at the PUCE University Ecuador
 
 El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kb) utilizando archivos de secuencia de ADN total. 
 
-Los siguientes softwares debent ser instalado en los computadores : 
--Bowtie2 https://github.com/BenLangmead/bowtie2 
--BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 
--Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty 
--EMBOSS http://emboss.sourceforge.net/download/ 
--Gepard (java) https://github.com/univieCUBE/gepard
+Los siguientes softwares debent ser instalado en los computadores :	
+-Bowtie2 https://github.com/BenLangmead/bowtie2 	
+-BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 	
+-Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty 	
+-EMBOSS http://emboss.sourceforge.net/download/ 	
+-Gepard (java) https://github.com/univieCUBE/gepard	
 
 La información sobre el funcionamiento y la utilización del software NOVOPLASTY se encuentra en: https://github.com/ndierckx/NOVOPlasty/ Dierckxsens N., Mardulyn P. y Smits G. (2016) NOVOPlasty: Ensamblaje de novo de genomas de organelos a partir de datos del genoma completo. Nucleic Acids Research, doi: 10.1093/nar/gkw955
 
@@ -28,5 +28,5 @@ Las lesturas crudas son accessibles aqui y se deben descargar en los coputadores
 
 Se puede abrir el archivo Untitled.md para tener mas informaciones sobre el curso.
 
-Romain Guyot
+Romain Guyot	
 Doris Vela
