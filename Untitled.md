@@ -20,7 +20,7 @@ Los archivos necesarios :
 Se debe descargar los archivos en los computadores como eso: --> "CODE", --> "Download ZIP", --> Unzip la carpeta.  
 
 **ETAPA 2**.  
-Las lesturas crudas son accessibles aqui y se deben descargar en los computadores (en la misma carpeta que los archivos de configuracion): https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing.  **Lecturas brutas de Illumina en archivos R1 y R2: 2 archivos con el mismo nombre. No mas. **   
+Las lesturas crudas son accessibles aqui y se deben descargar en los computadores (en la misma carpeta que los archivos de configuracion): https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing.  **Lecturas brutas de Illumina en archivos R1 y R2: 2 archivos con el mismo nombre. No mas**.     
 
 **ETAPA 3**.  
 
@@ -39,12 +39,6 @@ cat SRR6399450_2.fastq.gz > SRR6399450_R2.fq.gz
 ```
 
 **El archivo de configuración también debe ser renombrado con el prefijo, y debe estar en el mismo directorio que los datos.**.  
-TIPS: Para conocer la ruta de los archivos en el sistema: 
-
-```python
-pwd
-```
-
 
 Ejemplo:
 
@@ -54,6 +48,13 @@ config_SRR6399450.txt
 ```
 
 Se puede cambiar la configuration:
+
+**TIPS**: Para conocer la ruta de los archivos en el sistema: 
+
+```python
+pwd
+```
+
 
 
 ```python
