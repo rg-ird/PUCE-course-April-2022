@@ -119,6 +119,13 @@ Si sólo ha encontrado uno, se le cambiará el nombre pro ejemplo: _Circularized
 Si el programa no pudo circularizar el genoma: _Uncircularized_assemblies_1_Dasiri.fasta_.   
 Si el programe no pudo tener un genoma completo: _Contigs_1_Dasiri.fasta_.  
 
+**TIPS**.  
+conocer el tamano de los contigs. 
+
+```python
+infoseq Contigs_1_Dasiri.fasta
+```
+
 **ETAPA 5**.   
 El montaje debe comprobarse gráficamente con gepard
 
