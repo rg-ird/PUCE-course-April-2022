@@ -17,7 +17,7 @@ La información sobre el funcionamiento y la utilización del software NOVOPLAST
 
 Los archivos necesarios para correr Novoplasty:
 
-**-Lecturas crudas** de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz
+**-Lecturas crudas** de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz (entre otros).  
 Las lesturas crudas son accessibles aqui y se deben descargar en los computadores (en la misma carpeta que los archivos de configuracion): **https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing**
 
 -Un **archivo de configuración** https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2 -- > **config.txt**    
