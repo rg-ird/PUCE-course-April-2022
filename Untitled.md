@@ -1,28 +1,28 @@
 # Ensamblaje de genomas mitocondriales con Novoplasty
 
-El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kb) utilizando archivos de secuencia de ADN total. 
+El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kbb) utilizando archivos de secuencia de ADN total. 
 
-To be installed on Linux computers :
-Bowtie2 https://github.com/BenLangmead/bowtie2
-BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/
-Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty
-Emboss http://emboss.sourceforge.net/download/
-Gepard (java) https://github.com/univieCUBE/gepard
+Softwares :
+Bowtie2 https://github.com/BenLangmead/bowtie2.  
+BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/.  
+Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty.  
+Emboss http://emboss.sourceforge.net/download/.  
+Gepard (java) https://github.com/univieCUBE/gepard.  
 
 La información sobre el funcionamiento y la utilización del software se encuentra en
 https://github.com/ndierckx/NOVOPlasty/
-Dierckxsens N., Mardulyn P. y Smits G. (2016) NOVOPlasty: Ensamblaje de novo de genomas de organelos a partir de datos del genoma completo. Nucleic Acids Research, doi: 10.1093/nar/gkw955 
+_Dierckxsens N., Mardulyn P. y Smits G. (2016) NOVOPlasty: Ensamblaje de novo de genomas de organelos a partir de datos del genoma completo. Nucleic Acids Research, doi: 10.1093/nar/gkw955 _
 
 Los archivos necesarios :
--Lecturas brutas de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz
--Un archivo de configuración https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2
--Un archivo "Seed" o secuencia de iniciación derivada de una mitochondria de una especie relacionada --> Seed.fasta
--Una secuencia de un genoma mitochondrial relacionado (Drosophila melanogaster) -->  NC_024511.2.fasta
+-Lecturas brutas de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz (entre otros). 
+-Un archivo de configuración https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2. 
+-Un archivo "Seed" o secuencia de iniciación derivada de una mitochondria de una especie relacionada --> Seed.fasta. 
+-Una secuencia de un genoma mitochondrial relacionado (Drosophila melanogaster) -->  NC_024511.2.fasta. 
 
 Realización del montaje:
 Todos los pasos necesarios para el montaje se han recogido en el script : CP_assembly.sh
 
-Para ejecutar el script, los archivos de lectura bruta deben estar previamente concatenados y renombrados como prefix_R1.fq.gz y prefix_R2.fq.gz (donde prefix es el nombre o código del ensamblaje).
+**Para ejecutar el script, los archivos de lectura bruta deben estar previamente concatenados y renombrados como prefix_R1.fq.gz y prefix_R2.fq.gz (donde prefix es el nombre o código del ensamblaje).**  
 
 por ejemplo:
 
@@ -32,7 +32,7 @@ cat SRR6399450_1.fastq.gz > SRR6399450_R1.fq.gz
 cat SRR6399450_2.fastq.gz > SRR6399450_R2.fq.gz 
 ```
 
-El archivo de configuración también debe ser renombrado con el prefijo, y debe estar en el mismo directorio que los datos. Ejemplo:
+**El archivo de configuración también debe ser renombrado con el prefijo, y debe estar en el mismo directorio que los datos.**.  Ejemplo:
 
 
 ```python
@@ -82,8 +82,8 @@ Insert Range strict   = 1.3
 Use Quality Scores    = yes
 ```
 
-Puede copiarse el script (CP_assembly.sh) en el mismo directorio en el que se encuentran los datos brutos, o en su ruta especificada al llamarlo. 
-Es necesario dar como argumento el mismo prefijo utilizado para los datos después de llamar al script
+**Se debe copiar el script (CP_assembly.sh) en el mismo directorio ** en el que se encuentran los datos brutos, o en su ruta especificada al llamarlo. 
+Es necesario dar como argumento el mismo prefijo utilizado para los datos después de llamar al script.  
 
 El script debe tener los derechos para ser ejecutado como un programa:
 
