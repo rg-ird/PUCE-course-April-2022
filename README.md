@@ -30,4 +30,4 @@ Las lesturas crudas son accessibles aqui y se deben descargar en los computadore
 Se debe abrir el archivo **Untitled.md** para tener mas informaciones sobre el curso.
 
 **Romain Guyot**	&  
-_Doris Vela_
+**Doris Vela**
