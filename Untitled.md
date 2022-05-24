@@ -15,9 +15,10 @@ Los archivos necesarios :
 -Un archivo "Seed" o secuencia de iniciación derivada de una mitochondria de una especie relacionada --> Seed.fasta. 
 -Una secuencia de un genoma mitochondrial relacionado (Drosophila melanogaster) -->  NC_024511.2.fasta. 
 
-Se debe descargar los archivos en los computadores como eso: --> "CODE", --> "Download ZIP"
+Se debe descargar los archivos en los computadores como eso: --> "CODE", --> "Download ZIP", --> Unzip la carpeta.  
 
 Realización del montaje:
+En la carpeta "PUCE-course-April-2022-main".
 Todos los pasos necesarios para el montaje se han recogido en el script : CP_assembly.sh
 
 **Para ejecutar el script, los archivos de lectura bruta deben estar previamente concatenados y renombrados como prefix_R1.fq.gz y prefix_R2.fq.gz (donde prefix es el nombre o código del ensamblaje).**  
