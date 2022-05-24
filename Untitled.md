@@ -45,7 +45,7 @@ Ejemplo (depende del nombre de los archivos):
 
 
 ```python
-cat config.txt > config_SRR6399450.txt
+cat config.txt > config_plasty_SRR6399450.txt
 ```
 
 Se puede cambiar la configuration:
