@@ -20,6 +20,7 @@ Los archivos necesarios :
 Se debe descargar los archivos en los computadores como eso: --> "CODE", --> "Download ZIP", --> Unzip la carpeta.  
 
 **ETAPA 2**.  
+
 Las lesturas crudas son accessibles aqui y se deben descargar en los computadores (en la misma carpeta que los archivos de configuracion): https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing.  **Lecturas brutas de Illumina en archivos R1 y R2: 2 archivos con el mismo nombre. No mas**.     
 
 **ETAPA 3**.  
@@ -55,7 +56,7 @@ Se puede cambiar la configuration:
 pwd
 ```
 
-
+Editar el archovo de configuracion:  
 
 ```python
 nano config_SRR6399450.txt
@@ -72,8 +73,8 @@ K-mer                 = 33
 Max memory            = 
 Extended log          = 0
 Save assembled reads  = no
-Seed Input            = /home/xx/novoplasty/Seed.fasta #Cambiar la ruta hasta el archivo Seed.fasta
-Reference sequence    = /home/xx/novoplasty/NC_024511.2.fasta #Cambiar la ruta hasta el archivo NC_024511.2.fasta
+Seed Input            = /home/**xx**/novoplasty/Seed.fasta #Cambiar la ruta hasta el archivo Seed.fasta
+Reference sequence    = /home/**xx**/novoplasty/NC_024511.2.fasta #Cambiar la ruta hasta el archivo NC_024511.2.fasta
 Variance detection    = no
 Heteroplasmy          = 
 HP exclude list       =
@@ -86,8 +87,8 @@ Insert size           = 350
 Platform              = illumina
 Single/Paired         = PE
 Combined reads        =
-Forward reads         = /home/xx/novoplasty/SRR6399450_Cp_dedup.1 #Cambiar la ruta
-Reverse reads         = /home/xx/novoplasty/SRR6399450_Cp_dedup.2 #Cambiar la ruta
+Forward reads         = /home/**xx**/novoplasty/SRR6399450_Cp_dedup.1 #Cambiar la ruta
+Reverse reads         = /home/**xx**/novoplasty/SRR6399450_Cp_dedup.2 #Cambiar la ruta
 
 Optional:
 -----------------------
@@ -112,21 +113,25 @@ chmod 755 CP_assembly.sh
 ./CP_assembly.sh SRR6399450
 ```
 
-Una vez finalizado, el programma puede haber encontrado una o varias opciones para el montaje. 
-Si sólo ha encontrado uno, se le cambiará el nombre como Circularized_assembly_1_Dasiri.fasta
-Si el programa no pudo circularizar el genoma: Uncircularized_assemblies_1_Dasiri.fasta 
-Si el programe no pudo tener un genoma completo: Contigs_1_Dasiri.fasta
+**ETAPA 4**  
+Una vez finalizado, el programma puede haber encontrado una o varias opciones para el montaje.  
+Si sólo ha encontrado uno, se le cambiará el nombre pro ejemplo: _Circularized_assembly_1_Dasiri.fasta_.  
+Si el programa no pudo circularizar el genoma: _Uncircularized_assemblies_1_Dasiri.fasta_.   
+Si el programe no pudo tener un genoma completo: _Contigs_1_Dasiri.fasta_.  
 
- El montaje debe comprobarse gráficamente con gepard
+**ETAPA 5**. 
+El montaje debe comprobarse gráficamente con gepard
 
 ![](1.png)
 
-Añadir la secuencia 1 (NC_024511.2.fasta) y 2 (ensamblada con Novoplastia)
+Añadir la secuencia 1 (la referencia NC_024511.2.fasta) y 2 (ensamblada con Novoplasty)
 
 ![](2.png)
 
-Dependiendo del resultado del alineamiento gráfico, los contigs ensamblados con Novoplasty pueden ser modificados utilizando las herramientas de EMBOSS como seqretsplit y extractseq
+**ETAPA 6**  
+Dependiendo del resultado del alineamiento gráfico, los contigs ensamblados con Novoplasty pueden ser modificados utilizando las herramientas de EMBOSS como _seqretsplit_ y _extractseq_
 
+**ETAPA 7**. 
 El genome puede ser anotado automáticamente usando el sitio web MITOS http://mitos.bioinf.uni-leipzig.de/
 
 ![](3.png)
