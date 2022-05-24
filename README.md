@@ -20,7 +20,7 @@ Los archivos necesarios para correr Novoplasty:
 **-Lecturas crudas** de Illumina en archivos R1 y R2 --> SRR6399450_R1.fq.gz y SRR6399450_R2.fq.gz
 Las lesturas crudas son accessibles aqui y se deben descargar en los computadores (en la misma carpeta que los archivos de configuracion): https://drive.google.com/drive/folders/1STOlTrA-LZDUILwgparwXvL9jJy-VK2X?usp=sharing
 
--Un **archivo de configuración** https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2
+-Un **archivo de configuración** https://github.com/ndierckx/NOVOPlasty/blob/master/config.txt con la ruta a los archivos de lectura R1 y R2 -- > **config.txt**    
 
 -Un **archivo "Seed"** o secuencia de iniciación derivada de una mitochondria de una especie relacionada --> **Seed.fasta**
 
@@ -29,5 +29,5 @@ Las lesturas crudas son accessibles aqui y se deben descargar en los computadore
 
 Se debe abrir el archivo **Untitled.md** para tener mas informaciones sobre el curso.
 
-**Romain Guyot**	&  
+**Romain Guyot**	  
 **Doris Vela**
