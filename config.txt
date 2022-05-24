@@ -11,7 +11,7 @@ Seed Input            = /path/to/seed_file/Seed.fasta
 Extend seed directly  = no
 Reference sequence    = /path/to/reference_file/reference.fasta (optional)
 Variance detection    = 
-Chloroplast sequence  = /path/to/chloroplast_file/chloroplast.fasta (only for "mito_plant" option)
+Chloroplast sequence  =
 
 Dataset 1:
 -----------------------
