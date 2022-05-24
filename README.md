@@ -1,13 +1,13 @@
 # PUCE-course-May-2022
-Assembly course at the PUCE University Ecuador
+Assembly course at the PUCE University, Quito, Ecuador
 
 **Ensamblaje de genomas mitocondriales con Novoplasty**
 
-El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kb) utilizando archivos de secuencia de ADN total. 
+El objetivo de este curso práctico es aprender a ensamblar un genoma, con secuencias crudas y cortas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kbp) utilizando archivos de **secuencias de ADN total**. 
 
-Los siguientes softwares debent ser instalado en los computadores :	
--Bowtie2 https://github.com/BenLangmead/bowtie2 	
--BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 	
+Los siguientes softwares debent ser instalado en los computadores/servidores  :	
+-**Bowtie2** https://github.com/BenLangmead/bowtie2 	_Bowtie2 es un software apra mapear (alinear) sequencias cortas contra un genoma de referencia._
+-**BBmap** https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 	BBmap es un software 
 -Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty 	
 -EMBOSS http://emboss.sourceforge.net/download/ 	
 -Gepard (java) https://github.com/univieCUBE/gepard	
