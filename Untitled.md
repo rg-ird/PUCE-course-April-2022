@@ -2,7 +2,7 @@
 
 El objetivo de este curso práctico es aprender a ensamblar un genoma con secuencias crudas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de _Drosophila_ (de pequeño tamaño ~15 kbb) utilizando archivos de secuencia de ADN total. 
 
-Softwares :
+Softwares   
 Bowtie2 https://github.com/BenLangmead/bowtie2.    
 BBmap https://jgi.doe.gov/data-and-tools/software-tools/bbtools/.    
 Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty.    
@@ -113,13 +113,13 @@ chmod 755 CP_assembly.sh
 ./CP_assembly.sh SRR6399450
 ```
 
-**ETAPA 4**  
+**ETAPA 4**.    
 Una vez finalizado, el programma puede haber encontrado una o varias opciones para el montaje.  
 Si sólo ha encontrado uno, se le cambiará el nombre pro ejemplo: _Circularized_assembly_1_Dasiri.fasta_.  
 Si el programa no pudo circularizar el genoma: _Uncircularized_assemblies_1_Dasiri.fasta_.   
 Si el programe no pudo tener un genoma completo: _Contigs_1_Dasiri.fasta_.  
 
-**ETAPA 5**. 
+**ETAPA 5**.   
 El montaje debe comprobarse gráficamente con gepard
 
 ![](1.png)
@@ -128,10 +128,10 @@ Añadir la secuencia 1 (la referencia NC_024511.2.fasta) y 2 (ensamblada con Nov
 
 ![](2.png)
 
-**ETAPA 6**  
+**ETAPA 6**.    
 Dependiendo del resultado del alineamiento gráfico, los contigs ensamblados con Novoplasty pueden ser modificados utilizando las herramientas de EMBOSS como _seqretsplit_ y _extractseq_
 
-**ETAPA 7**. 
+**ETAPA 7**.   
 El genome puede ser anotado automáticamente usando el sitio web MITOS http://mitos.bioinf.uni-leipzig.de/
 
 ![](3.png)
