@@ -24,7 +24,7 @@ Las lesturas crudas son accessibles aqui y se deben descargar en los computadore
 
 -Un **archivo "Seed"** o secuencia de iniciación derivada de una mitochondria de una especie relacionada --> **Seed.fasta**
 
--La **secuencia de referencia** de un genoma mitochondrial relacionado (Drosophila melanogaster) -->  **NC_024511.2.fasta**
+-La **secuencia de referencia** de un genoma mitochondrial relacionado (_Drosophila melanogaster_) -->  **NC_024511.2.fasta**
 
 
 Se debe abrir el archivo **Untitled.md** para tener mas informaciones sobre el curso.
