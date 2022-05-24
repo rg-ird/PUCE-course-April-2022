@@ -6,11 +6,11 @@
 El objetivo de este curso práctico es aprender a ensamblar un genoma, con secuencias crudas y cortas de Illumima (2X150bp). Hemos optado por ensamblar un genoma mitocondrial de Drosophila (de pequeño tamaño ~15 kbp) utilizando archivos de **secuencias de ADN total**. 
 
 Los siguientes softwares debent ser instalado en los computadores/servidores  :  
--**Bowtie2** https://github.com/BenLangmead/bowtie2 	_Bowtie2 es un software apra mapear (alinear) sequencias cortas contra un genoma de referencia._. 
--**BBmap** https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 	_BBmap se utiliza para reducir la redundancia de lecturas idénticas _. 
--Novoplasty V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty 	_Novoplasty es el software para ensamblar_. 
--EMBOSS http://emboss.sourceforge.net/download/ 	_Emboss son softwares para manipular secuencias_. 
--Gepard (java) https://github.com/univieCUBE/gepard	 _Gepard es un software para alinear graficaùmente las secuencias_. 
+-**Bowtie2** https://github.com/BenLangmead/bowtie2 	_Bowtie2 es un software apra mapear (alinear) sequencias cortas contra un genoma de referencia._.  
+-**BBmap** https://jgi.doe.gov/data-and-tools/software-tools/bbtools/ 	_BBmap se utiliza para reducir la redundancia de lecturas idénticas _.  
+-**Novoplasty** V4.3 (script perl) https://github.com/ndierckx/NOVOPlasty 	_Novoplasty es el software para ensamblar_.  
+-**EMBOSS** http://emboss.sourceforge.net/download/ 	_Emboss son softwares para manipular secuencias_.  
+-**Gepard** (java) https://github.com/univieCUBE/gepard	 _Gepard es un software para alinear graficaùmente las secuencias_.  
 
 
 La información sobre el funcionamiento y la utilización del software NOVOPLASTY se encuentra en: https://github.com/ndierckx/NOVOPlasty/ _Dierckxsens N., Mardulyn P. y Smits G. (2016) NOVOPlasty: Ensamblaje de novo de genomas de organelos a partir de datos del genoma completo. Nucleic Acids Research, doi: 10.1093/nar/gkw955_
@@ -27,7 +27,7 @@ Las lesturas crudas son accessibles aqui y se deben descargar en los computadore
 -La **secuencia de referencia** de un genoma mitochondrial relacionado (Drosophila melanogaster) -->  **NC_024511.2.fasta**
 
 
-Se puede abrir el archivo Untitled.md para tener mas informaciones sobre el curso.
+Se debe abrir el archivo **Untitled.md** para tener mas informaciones sobre el curso.
 
-Romain Guyot	& 
-Doris Vela
+**Romain Guyot**	&  
+_Doris Vela_
