@@ -41,11 +41,11 @@ cat SRR6399450_2.fastq.gz > SRR6399450_R2.fq.gz
 
 **El archivo de configuración también debe ser renombrado con el prefijo, y debe estar en el mismo directorio que los datos.**.  
 
-Ejemplo:
+Ejemplo (depende del nombre de los archivos):
 
 
 ```python
-config_SRR6399450.txt
+cat config.txt > config_SRR6399450.txt
 ```
 
 Se puede cambiar la configuration:
