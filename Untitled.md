@@ -59,7 +59,7 @@ pwd
 Editar el archovo de configuracion:  
 
 ```python
-nano config_SRR6399450.txt
+nano config_plasty_SRR6399450.txt
 ```
 
 
@@ -73,8 +73,8 @@ K-mer                 = 33
 Max memory            = 
 Extended log          = 0
 Save assembled reads  = no
-Seed Input            = /home/**xx**/novoplasty/Seed.fasta #Cambiar la ruta hasta el archivo Seed.fasta
-Reference sequence    = /home/**xx**/novoplasty/NC_024511.2.fasta #Cambiar la ruta hasta el archivo NC_024511.2.fasta
+Seed Input            = /home/**xx**/PUCE-course-April-2022-main/Seed.fasta #Cambiar la ruta hasta el archivo Seed.fasta
+Reference sequence    = /home/**xx**/PUCE-course-April-2022-main/NC_024511.2.fasta #Cambiar la ruta hasta el archivo NC_024511.2.fasta
 Variance detection    = no
 Heteroplasmy          = 
 HP exclude list       =
@@ -87,8 +87,8 @@ Insert size           = 350
 Platform              = illumina
 Single/Paired         = PE
 Combined reads        =
-Forward reads         = /home/**xx**/novoplasty/SRR6399450_Cp_dedup.1 #Cambiar la ruta
-Reverse reads         = /home/**xx**/novoplasty/SRR6399450_Cp_dedup.2 #Cambiar la ruta
+Forward reads         = /home/**xx**/PUCE-course-April-2022-main/SRR6399450_Cp_dedup.1 #Cambiar la ruta
+Reverse reads         = /home/**xx**/PUCE-course-April-2022-main/SRR6399450_Cp_dedup.2 #Cambiar la ruta
 
 Optional:
 -----------------------
@@ -140,3 +140,5 @@ El genome puede ser anotado automáticamente usando el sitio web MITOS http://mi
 ```python
 
 ```
+
+**Conclusiones y observaciones**.  
